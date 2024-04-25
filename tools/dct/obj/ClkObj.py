@@ -19,7 +19,7 @@ import ConfigParser
 
 import xml.dom.minidom
 
-from ModuleObj import ModuleObj
+from .ModuleObj import ModuleObj
 from data.ClkData import ClkData
 from utility.util import log
 from utility.util import LogLevel
