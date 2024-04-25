@@ -16,23 +16,23 @@ import os, sys
 import collections
 import xml.dom.minidom
 
-from GpioObj import GpioObj
-from GpioObj import GpioObj_whitney
-from GpioObj import GpioObj_MT6759
-from EintObj import EintObj
-from EintObj import EintObj_MT6750S
-from AdcObj import AdcObj
-from ClkObj import ClkObj
-from ClkObj import ClkObj_Everest
-from ClkObj import ClkObj_Olympus
-from ClkObj import ClkObj_Rushmore
-from I2cObj import I2cObj
-from I2cObj import I2cObj_MT6759
-from PmicObj import PmicObj
-from Md1EintObj import Md1EintObj
-from PowerObj import PowerObj
-from KpdObj import KpdObj
-from ModuleObj import ModuleObj
+from .GpioObj import GpioObj
+from .GpioObj import GpioObj_whitney
+from .GpioObj import GpioObj_MT6759
+from .EintObj import EintObj
+from .EintObj import EintObj_MT6750S
+from .AdcObj import AdcObj
+from .ClkObj import ClkObj
+from .ClkObj import ClkObj_Everest
+from .ClkObj import ClkObj_Olympus
+from .ClkObj import ClkObj_Rushmore
+from .I2cObj import I2cObj
+from .I2cObj import I2cObj_MT6759
+from .PmicObj import PmicObj
+from .Md1EintObj import Md1EintObj
+from .PowerObj import PowerObj
+from .KpdObj import KpdObj
+from .ModuleObj import ModuleObj
 
 from utility.util import log
 from utility.util import LogLevel
