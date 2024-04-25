@@ -18,7 +18,7 @@ import xml.dom.minidom
 
 from utility import util
 from utility.util import sorted_key
-from ModuleObj import ModuleObj
+from .ModuleObj import ModuleObj
 from data.Md1EintData import Md1EintData
 from utility.util import LogLevel
 
